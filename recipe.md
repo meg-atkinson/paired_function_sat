@@ -71,7 +71,13 @@ returns False
 includes_todo("learn to test-drive my code #todo")
 #=>False
 
-
+"""
+given input without # in front of todo
+"learn to test-drive my code TODO"
+returns False
+"""
+includes_todo("learn to test-drive my code TODO")
+#=>False
 
 ```
 
